@@ -34,7 +34,7 @@ function createTab() {
 
     // Create the iframe within the content pane
     let newIframe = document.createElement('iframe');
-    newIframe.setAttribute('src', "newtab.html");
+    newIframe.setAttribute('src', "https://google.com");
     newIframe.setAttribute('name', 'New Tab');
     newIframe.style.width = '100%';
     newIframe.style.height = '80%'; // Customizable to suit your design
@@ -48,6 +48,7 @@ function createTab() {
         newTab.classList.add('active');
         newContent.classList.add('active');
     });
+    newTab.click();
 
     // Increment the index for the next tab
     tabIndex++;

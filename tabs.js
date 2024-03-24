@@ -34,7 +34,7 @@ function createTab() {
 
     // Create the iframe within the content pane
     let newIframe = document.createElement('iframe');
-    newIframe.setAttribute('src', "https://google.com");
+    newIframe.setAttribute('src', "https://bing.com");
     newIframe.setAttribute('name', 'New Tab');
     newIframe.style.width = '100%';
     newIframe.style.height = '80%'; // Customizable to suit your design
